@@ -27,7 +27,7 @@ async def validate_input(hass: core.HomeAssistant, data):
         raise InvalidAuth
     modules = await api.list_modules()
     # Currently only one Tech controller supported
-    module = modules[0]
+    module = modules[1]
     
     # If you cannot connect:
     # throw CannotConnect

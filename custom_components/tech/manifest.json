@@ -1,12 +1,13 @@
 {
-  "domain": "tech",
-  "name": "Tech Controllers",
+  "domain": "tech2",
+  "name": "Tech Controllers second module",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/tech",
   "requirements": [],
   "dependencies": [],
   "codeowners": [
-    "@mariusz.ostoja-swierczynski"
+    "@mariusz.ostoja-swierczynski",
+    "@adrianwojdat"
   ],
 	"version": "1.0.0"
 }
