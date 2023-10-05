@@ -1,5 +1,7 @@
-# TECH Controllers integration for Home Assistant
-The integration of heating controllers from Polish company TECH Sterowniki Sp. z o.o. It uses API to their web control application eModul.eu, therefore your controller needs to be accessible from internet and you need an account either on https://emodul.eu or https://emodul.pl.
+# FORK of TECH Controllers integration for Home Assistant (SECOND MODULE)
+If you have 2 TECH modules in your home original integration is fetching zones connected only to first module.
+This integration is fetching zones zonnected only to second module.
+If you want to fetch zones from both modules use original integration and this one in paraller.
 
 The integration is based on API provided by TECH which supports following controllers:
 * L-7
